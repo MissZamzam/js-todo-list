@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap");  
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(16, 63, 63);
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+}
+#app{
+    width: 50%;
+    min-width: 400px;
+    padding: 80px;
+    margin-top: 40px;
+    box-shadow: 1px 20px 30px rgb(139, 67, 139);
+}
+h1{
+    margin-top: 60px;
+    font-family: "Dancing Script";
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: #335c62;
+    font-weight: 700;
+}
+p{
+    font-family: "Dancing Script";
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #5c5c5c;
+    font-weight: 300;
+}
+ul{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 50px;
+}
+ul li{
+    margin-bottom: 10px;
+    color: rgb(32, 66, 66);
+}
+ul li a{
+    margin-left: 15px;
+    color: aliceblue;
+    cursor: pointer;
+    border: 1px solid rgb(48, 97, 97);
+    border-radius: 5px;
+    padding: 0 15px 2px 15px;
+    background-color: rgb(51, 153, 51);
+}
+ul li a:hover{
+    opacity: 0.8;
+}
+input,button{
+    font: 400 20px,san-serif;
+}
+input{
+    width: 60%;
+    height: 40px;
+    color: rgb(49, 108, 112);
+    border: 1px solid rgb(49, 97, 97);
+    border-radius: 8px;
+    padding: 0 24px;
+    margin-right: 10px;
+}
+.btn_add{
+    width: 30%;
+    height: 40px;
+    border: 1px solid rgb(32, 46, 46);
+    border-radius: 8px;
+    background-color: rgb(50, 141, 168);
+    color: white;
+    cursor: pointer;
+}
+.btn_add:hover{
+    opacity: 0.8;
+}
